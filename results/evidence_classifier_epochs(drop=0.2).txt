@@ -1,0 +1,50 @@
+Training loss during training the data 
+7982111 MainThread Epoch 1 training loss 1.3560841327461888
+
+
+Training loss and validation loss during Validation time-
+9666711 MainThread Epoch 1 train loss 1.2364800819927368
+9666717 MainThread Epoch 1 train_acc 0.6657788505555787
+9666719 MainThread Epoch 1 train_f1 {'0': {'precision': 0.7421875, 'recall': 0.3683911850941076, 'f1-score': 0.4923835408634094, 'support': 10573}, '1': {'precision': 0.644427879239657, 'recall': 0.8994500594530321, 'f1-score': 0.7508763222384216, 'support': 13456}, 'micro avg': {'precision': 0.6657788505555787, 'recall': 0.6657788505555787, 'f1-score': 0.6657788505555787, 'support': 24029}, 'macro avg': {'precision': 0.6933076896198285, 'recall': 0.6339206222735698, 'f1-score': 0.6216299315509155, 'support': 24029}, 'weighted avg': {'precision': 0.6874430887905791, 'recall': 0.6657788505555787, 'f1-score': 0.6371369166252873, 'support': 24029}}
+9666719 MainThread Epoch 1 val loss 1.3137588508394689
+9666719 MainThread Epoch 1 val acc 0.6141879278158059
+9666720 MainThread Epoch 1 val f1 {'0': {'precision': 0.6480446927374302, 'recall': 0.31955922865013775, 'f1-score': 0.42804428044280446, 'support': 1452}, '1': {'precision': 0.6044835868694955, 'recall': 0.8569807037457434, 'f1-score': 0.7089201877934272, 'support': 1762}, 'micro avg': {'precision': 0.6141879278158059, 'recall': 0.6141879278158059, 'f1-score': 0.6141879278158059, 'support': 3214}, 'macro avg': {'precision': 0.6262641398034628, 'recall': 0.5882699661979406, 'f1-score': 0.5684822341181158, 'support': 3214}, 'weighted avg': {'precision': 0.62416333973827, 'recall': 0.6141879278158059, 'f1-score': 0.5820278985983108, 'support': 3214}}
+
+9696507 MainThread Epoch 1 new best model with val loss 1.3137588508394689
+9696563 MainThread Training with 6007 batches with 24029 examples
+
+
+
+Training loss during training the data 
+14401586 MainThread Epoch 2 training loss 1.2360315373230726
+
+
+Training loss and validation loss during Validation time-
+16084403 MainThread Epoch 2 train loss 1.0365080733370495
+16084404 MainThread Epoch 2 train_acc 0.7515085937825128
+16084404 MainThread Epoch 2 train_f1 {'0': {'precision': 0.7143256333830105, 'recall': 0.7253381254137898, 'f1-score': 0.7197897601952226, 'support': 10573}, '1': {'precision': 0.7815391559467388, 'recall': 0.7720719381688466, 'f1-score': 0.7767767019327825, 'support': 13456}, 'micro avg': {'precision': 0.7515085937825128, 'recall': 0.7515085937825128, 'f1-score': 0.7515085937825128, 'support': 24029}, 'macro avg': {'precision': 0.7479323946648746, 'recall': 0.7487050317913182, 'f1-score': 0.7482832310640025, 'support': 24029}, 'weighted avg': {'precision': 0.751964534694656, 'recall': 0.7515085937825128, 'f1-score': 0.7517018783865999, 'support': 24029}}
+16084404 MainThread Epoch 2 val loss 1.286685997014025
+16084404 MainThread Epoch 2 val acc 0.6328562538892346
+16084404 MainThread Epoch 2 val f1 {'0': {'precision': 0.5906666666666667, 'recall': 0.6101928374655647, 'f1-score': 0.6002710027100271, 'support': 1452}, '1': {'precision': 0.6697782963827305, 'recall': 0.6515323496027242, 'f1-score': 0.6605293440736479, 'support': 1762}, 'micro avg': {'precision': 0.6328562538892346, 'recall': 0.6328562538892346, 'f1-score': 0.6328562538892346, 'support': 3214}, 'macro avg': {'precision': 0.6302224815246986, 'recall': 0.6308625935341445, 'f1-score': 0.6304001733918375, 'support': 3214}, 'weighted avg': {'precision': 0.6340377592490265, 'recall': 0.6328562538892346, 'f1-score': 0.6333062228353227, 'support': 3214}}
+
+16112373 MainThread Epoch 2 new best model with val loss 1.286685997014025
+16112421 MainThread Training with 6007 batches with 24029 examples
+
+
+Training loss during training the data 
+20795155 MainThread Epoch 3 training loss 1.0791946047340828
+
+
+
+
+
+
+Training loss and validation loss during Validation time-
+22477951 MainThread Epoch 3 train loss 0.813665256697347
+22477951 MainThread Epoch 3 train_acc 0.8135170002913147
+22477951 MainThread Epoch 3 train_f1 {'0': {'precision': 0.8205640917701537, 'recall': 0.7374444339354961, 'f1-score': 0.7767870485678705, 'support': 10573}, '1': {'precision': 0.8089075514559096, 'recall': 0.8732907253269917, 'f1-score': 0.8398670621448737, 'support': 13456}, 'micro avg': {'precision': 0.8135170002913147, 'recall': 0.8135170002913147, 'f1-score': 0.8135170002913147, 'support': 24029}, 'macro avg': {'precision': 0.8147358216130316, 'recall': 0.8053675796312438, 'f1-score': 0.8083270553563722, 'support': 24029}, 'weighted avg': {'precision': 0.8140365456189004, 'recall': 0.8135170002913147, 'f1-score': 0.8121112261321534, 'support': 24029}}
+22477951 MainThread Epoch 3 val loss 1.3729979218016817
+22477951 MainThread Epoch 3 val acc 0.6409458618543871
+22477951 MainThread Epoch 3 val f1 {'0': {'precision': 0.6068866571018652, 'recall': 0.5826446280991735, 'f1-score': 0.5945186226282502, 'support': 1452}, '1': {'precision': 0.667032967032967, 'recall': 0.6889897843359818, 'f1-score': 0.6778336125069794, 'support': 1762}, 'micro avg': {'precision': 0.6409458618543871, 'recall': 0.6409458618543871, 'f1-score': 0.6409458618543871, 'support': 3214}, 'macro avg': {'precision': 0.636959812067416, 'recall': 0.6358172062175776, 'f1-score': 0.6361761175676148, 'support': 3214}, 'weighted avg': {'precision': 0.6398604586260099, 'recall': 0.6409458618543871, 'f1-score': 0.6401941086787545, 'support': 3214}}
+
+22477980 MainThread Training with 6007 batches with 24029 examples

@@ -1,0 +1,28 @@
+Targets in evidence classifier:
+(0,)
+Class interner in evidence classifier :
+{'False': 0, 'True': 1}
+Predictions : tensor([[0.4606, 0.5394]], device='cuda:0', grad_fn=<SoftmaxBackward>)
+Targets : tensor([[1., 0.]], device='cuda:0')
+122096 MainThread Epoch 0 training loss 1.5505127906799316
+Prediction and targets in Validation-
+Predictions : tensor([[0.8652, 0.1348]], device='cuda:0')
+Targets : tensor([[1., 0.]], device='cuda:0')
+/home/mt1/21CS60R28/anaconda3/envs/mtp2/lib/python3.7/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Prediction and targets in Validation-
+Predictions : tensor([[0.8429, 0.1571],
+        [0.8575, 0.1425]], device='cuda:0')
+Targets : tensor([[0., 1.],
+        [1., 0.]], device='cuda:0')
+Hard Rationale Predictions : [0, 0]
+Actual Predictions : [1, 0]
+122165 MainThread Epoch 0 train loss 0.2896130383014679
+122165 MainThread Epoch 0 train_acc 1.0
+122165 MainThread Epoch 0 train_f1 {'False': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1}, 'True': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0}, 'micro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1}, 'macro avg': {'precision': 0.5, 'recall': 0.5, 'f1-score': 0.5, 'support': 1}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1}}
+122165 MainThread Epoch 0 val loss 2.0047788619995117
+122165 MainThread Epoch 0 val acc 0.5
+122165 MainThread Epoch 0 val f1 {'False': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1}, 'True': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1}, 'micro avg': {'precision': 0.5, 'recall': 0.5, 'f1-score': 0.5, 'support': 2}, 'macro avg': {'precision': 0.25, 'recall': 0.5, 'f1-score': 0.3333333333333333, 'support': 2}, 'weighted avg': {'precision': 0.25, 'recall': 0.5, 'f1-score': 0.3333333333333333, 'support': 2}}
+127063 MainThread Epoch 0 new best model with val loss 2.0047788619995117
+END TIME FOR EVIDENCE CLASSIFIER : 2022-08-24 17:30:48.149281
+Time Taken by the evidence_classifier----- 0:00:05.249772

@@ -1,0 +1,42 @@
+INITIAL TIME for mtl token identifier classifier------ 2022-08-04 14:48:00.715673
+522632 MainThread Beginning training with 24029 annotations, 3214 for validation
+526635 MainThread Have 1329812 positive wordpiece tokens, 6674222 negative wordpiece tokens
+527073 MainThread Have 187277 positive wordpiece tokens, 886306 negative wordpiece tokens
+527689 MainThread Have 264229 positive wordpiece tokens, 1268151 negative wordpiece tokens
+527757 MainThread Training evidence identifier from epoch 0 until epoch 10
+529130 MainThread Training with 6007 batches with 24029 examples
+2181657 MainThread Epoch 0 training loss 0.6349400534659687
+2316614 MainThread Epoch 0 new best model with val loss 0.6226212101540509
+2360060 MainThread Training with 6007 batches with 24029 examples
+4016569 MainThread Epoch 1 training loss 0.5205998270959561
+4147040 MainThread Epoch 1 new best model with val loss 0.6203155554390577
+4169522 MainThread Training with 6007 batches with 24029 examples
+5818397 MainThread Epoch 2 training loss 0.41863341359600287
+5958674 MainThread Epoch 2 new best model with val loss 0.6929363315981797
+5978877 MainThread Training with 6007 batches with 24029 examples
+7631034 MainThread Epoch 3 training loss 0.32087270435093646
+7767599 MainThread Epoch 3 new best model with val loss 0.7450002053429158
+7789864 MainThread Training with 6007 batches with 24029 examples
+9444058 MainThread Epoch 4 training loss 0.2457252590200953
+9578697 MainThread Epoch 4 new best model with val loss 0.8469990977974563
+9608366 MainThread Training with 6007 batches with 24029 examples
+11268258 MainThread Epoch 5 training loss 0.20082104706407047
+11399410 MainThread Epoch 5 new best model with val loss 0.881173193765956
+11422022 MainThread Training with 6007 batches with 24029 examples
+13072565 MainThread Epoch 6 training loss 0.1598968244323433
+13212339 MainThread Epoch 6 new best model with val loss 1.064237319579126
+13269819 MainThread Training with 6007 batches with 24029 examples
+14922999 MainThread Epoch 7 training loss 0.13537087382475546
+15060844 MainThread Epoch 7 new best model with val loss 1.1138186907633623
+15104166 MainThread Training with 6007 batches with 24029 examples
+16760574 MainThread Epoch 8 training loss 0.11765128347162004
+16898345 MainThread Epoch 8 new best model with val loss 1.2702377007297092
+16961253 MainThread Training with 6007 batches with 24029 examples
+18613757 MainThread Epoch 9 training loss 0.10156741985384501
+18741580 MainThread Epoch 9 new best model with val loss 1.2968866923986877
+Data Before Training--
+24029
+Data After Training----
+23642
+END TIME for mtl token identifier classifier----- 2022-08-04 20:03:13.979379
+Time taken by mtl token identifier : 5:15:13.263706
